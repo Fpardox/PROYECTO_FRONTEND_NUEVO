@@ -34,7 +34,7 @@ export class AppComponent implements OnInit {
     if (isDevMode()) {
       this.apiUrl = 'http://localhost:3000/api/tasks';
     } else {
-      this.apiUrl = 'https://gestor-de-actividades.onrender.com';
+      this.apiUrl = 'https://gestor-de-actividades.onrender.com/api/tasks';
     }
   }
 
